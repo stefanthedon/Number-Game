@@ -1,0 +1,63 @@
+body {
+    height:100%;
+}
+
+/*
+.container{
+    
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+*/
+
+.guessBox {
+    position: relative;
+    border: 3px solid black;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 800px;
+    text-align: center;
+}
+
+.topBar {
+    position: relative;
+    background-color: black;
+    margin: 0px 0px 0px 0px;
+    height: 70px;
+    width: 100%;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.topBar p {
+    color: white;
+    text-align: center;
+    font-size: 34px;
+    margin-top: 0px;
+    padding-top: 17px;
+}
+
+.guessBox p {
+    font-family: 'Raleway';
+    font-size: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5pc;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 30px;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("assets/css/Raleway-Regular");
+}
